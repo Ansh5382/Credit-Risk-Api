@@ -1,0 +1,22 @@
+{
+  "dataset": "Default of Credit Card Clients (UCI, Taiwan 2005), 24,000 customers",
+  "threshold": 0.3,
+  "test_results": {
+    "lightgbm": {
+      "roc_auc": 0.774,
+      "accuracy": 0.796,
+      "precision": 0.537,
+      "recall": 0.562
+    },
+    "baseline_logistic_regression": {
+      "roc_auc": 0.753,
+      "accuracy": 0.784,
+      "precision": 0.51,
+      "recall": 0.562
+    }
+  },
+  "roc_auc_by_group": {
+    "male": 0.78,
+    "female": 0.77
+  }
+}
